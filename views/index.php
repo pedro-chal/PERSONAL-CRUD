@@ -2,22 +2,29 @@
 
 include_once('header.php');
 
-include("../models/productos.php");
+// include("../models/productos_model.php");
 
 
 
-$productos = new productos();
+// $productos = new Productos();
 
-$datos = $productos->getProducto();
+// $datos = $productos->getProducto();
+
+
 // var_dump($datos);
-// var_dump($datos[0]["nombre_producto"]);
+// // var_dump($datos[0]["nombre_producto"]);
 
+
+// foreach ($datos  as $key => $value) {
+//     // var_dump($datos[$key]["nombre_producto"]);
+    // var_dump($value["nombre_producto"]);
+// }
 
 
 ?>
 <!-- Begin Page Content -->
                 <div class="container-fluid">
-
+<button class="btn-circle" type="submit">lols</button>
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
